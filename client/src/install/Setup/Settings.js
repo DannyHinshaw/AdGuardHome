@@ -302,7 +302,9 @@ class Settings extends Component {
                                     </div>
                                     <div className="text-muted mb-2">
                                         <p className="mb-1">
-                                            <Trans>autofix_warning_text</Trans>
+                                            <a href='https://github.com/AdguardTeam/AdGuardHome/wiki/Getting-Started'>
+                                                <Trans>visit_wiki</Trans>
+                                            </a>
                                         </p>
                                         <Trans components={[<li key="0">text</li>]}>
                                             autofix_warning_list
